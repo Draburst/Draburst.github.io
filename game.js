@@ -1,7 +1,5 @@
 
 function startGame() {
-    
-    alert("Гра почалася!");
     let num1, num2, correctAnswer;
     window.onload = generateQuestion;
     function generateQuestion() {
