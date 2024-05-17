@@ -3,23 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Game</title>
-    <style>
-        body { text-align: center; margin-top: 50px; font-family: Arial, sans-serif; }
-        #game { display: inline-block; text-align: left; }
-        #question { font-size: 24px; margin-bottom: 20px; }
-        #answer { font-size: 20px; }
-        #feedback { font-size: 20px; color: green; margin-top: 20px; }
-    </style>
+    <title>Математична гра</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Math Game</h1>
-    <div id="game">
-        <div id="question"></div>
-        <input type="number" id="answer" placeholder="Your answer">
-        <button onclick="checkAnswer()">Submit</button>
-        <div id="feedback"></div>
+    <div class="container">
+        <h1>Ласкаво просимо до математичної гри!</h1>
+        <p>Відповідайте на питання та перевірте свої знання математики.</p>
+        <button onclick="startGame()">Почати гру</button>
     </div>
+
     <script src="game.js"></script>
 </body>
 </html>
